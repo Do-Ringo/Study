@@ -4,4 +4,6 @@ N: int = int(n)
 K: int = int(k)
 A: float = K % N
 a: int = int(A)
-print(a)
+B: int = N - a
+S: int = B % N
+print(S)
